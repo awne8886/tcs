@@ -1,0 +1,193 @@
+{
+  "file" : "tcs-clan-macro.dll",
+  "source" : "tcs-clan-macro.dll",
+  "sizeBytes" : 4652032,
+  "format" : "PE32+",
+  "kind" : "DLL",
+  "architecture" : "x86-64",
+  "machine" : "0x8664",
+  "subsystem" : "Windows GUI",
+  "managed" : false,
+  "timestamp" : 1789055963,
+  "timestampUtc" : "2026-09-10T15:59:23Z",
+  "linkerVersion" : "14.51",
+  "entryPointRva" : 669088,
+  "imageBase" : 6442450944,
+  "sectionAlignment" : 4096,
+  "fileAlignment" : 512,
+  "sizeOfImage" : 4681728,
+  "checksum" : 0,
+  "characteristics" : [ "EXECUTABLE_IMAGE", "LARGE_ADDRESS_AWARE", "DLL" ],
+  "dllCharacteristics" : [ "HIGH_ENTROPY_VA", "DYNAMIC_BASE", "NX_COMPAT" ],
+  "sections" : [ {
+    "name" : ".text",
+    "virtualAddress" : 4096,
+    "virtualSize" : 853196,
+    "rawSize" : 853504,
+    "rawOffset" : 1024,
+    "flags" : [ "CODE", "EXECUTE", "READ" ]
+  }, {
+    "name" : ".rdata",
+    "virtualAddress" : 860160,
+    "virtualSize" : 235834,
+    "rawSize" : 236032,
+    "rawOffset" : 854528,
+    "flags" : [ "INITIALIZED_DATA", "READ" ]
+  }, {
+    "name" : ".data",
+    "virtualAddress" : 1097728,
+    "virtualSize" : 12428,
+    "rawSize" : 8192,
+    "rawOffset" : 1090560,
+    "flags" : [ "INITIALIZED_DATA", "READ", "WRITE" ]
+  }, {
+    "name" : ".pdata",
+    "virtualAddress" : 1114112,
+    "virtualSize" : 46656,
+    "rawSize" : 47104,
+    "rawOffset" : 1098752,
+    "flags" : [ "INITIALIZED_DATA", "READ" ]
+  }, {
+    "name" : ".fptable",
+    "virtualAddress" : 1163264,
+    "virtualSize" : 256,
+    "rawSize" : 512,
+    "rawOffset" : 1145856,
+    "flags" : [ "INITIALIZED_DATA", "READ", "WRITE" ]
+  }, {
+    "name" : ".pad",
+    "virtualAddress" : 1167360,
+    "virtualSize" : 3500000,
+    "rawSize" : 3500032,
+    "rawOffset" : 1146368,
+    "flags" : [ "INITIALIZED_DATA", "READ" ]
+  }, {
+    "name" : ".rsrc",
+    "virtualAddress" : 4669440,
+    "virtualSize" : 472,
+    "rawSize" : 512,
+    "rawOffset" : 4646400,
+    "flags" : [ "INITIALIZED_DATA", "READ" ]
+  }, {
+    "name" : ".reloc",
+    "virtualAddress" : 4673536,
+    "virtualSize" : 4832,
+    "rawSize" : 5120,
+    "rawOffset" : 4646912,
+    "flags" : [ "INITIALIZED_DATA", "DISCARDABLE", "READ" ]
+  } ],
+  "dataDirectories" : [ {
+    "index" : 1,
+    "name" : "import",
+    "rva" : 1090804,
+    "size" : 200
+  }, {
+    "index" : 2,
+    "name" : "resource",
+    "rva" : 4669440,
+    "size" : 472
+  }, {
+    "index" : 3,
+    "name" : "exception",
+    "rva" : 1114112,
+    "size" : 46656
+  }, {
+    "index" : 5,
+    "name" : "baseRelocation",
+    "rva" : 4673536,
+    "size" : 4832
+  }, {
+    "index" : 6,
+    "name" : "debug",
+    "rva" : 1023152,
+    "size" : 112
+  }, {
+    "index" : 9,
+    "name" : "tls",
+    "rva" : 1023616,
+    "size" : 40
+  }, {
+    "index" : 10,
+    "name" : "loadConfig",
+    "rva" : 1022832,
+    "size" : 320
+  }, {
+    "index" : 12,
+    "name" : "importAddressTable",
+    "rva" : 860160,
+    "size" : 1592
+  } ],
+  "authenticode" : {
+    "certificateTablePresent" : false,
+    "verified" : false,
+    "note" : "Only the presence and size of the certificate table are reported. No hash is computed, no certificate chain is built, and nothing here is a signature validity check."
+  },
+  "imports" : {
+    "libraries" : 9,
+    "symbols" : 190,
+    "byLibrary" : [ {
+      "name" : "KERNEL32.dll",
+      "delayLoad" : false,
+      "symbols" : 121,
+      "truncated" : false
+    }, {
+      "name" : "USER32.dll",
+      "delayLoad" : false,
+      "symbols" : 3,
+      "truncated" : false
+    }, {
+      "name" : "GDI32.dll",
+      "delayLoad" : false,
+      "symbols" : 7,
+      "truncated" : false
+    }, {
+      "name" : "CRYPT32.dll",
+      "delayLoad" : false,
+      "symbols" : 16,
+      "truncated" : false
+    }, {
+      "name" : "WS2_32.dll",
+      "delayLoad" : false,
+      "symbols" : 34,
+      "truncated" : false
+    }, {
+      "name" : "bcrypt.dll",
+      "delayLoad" : false,
+      "symbols" : 1,
+      "truncated" : false
+    }, {
+      "name" : "Secur32.dll",
+      "delayLoad" : false,
+      "symbols" : 1,
+      "truncated" : false
+    }, {
+      "name" : "IPHLPAPI.DLL",
+      "delayLoad" : false,
+      "symbols" : 1,
+      "truncated" : false
+    }, {
+      "name" : "ADVAPI32.dll",
+      "delayLoad" : false,
+      "symbols" : 6,
+      "truncated" : false
+    } ]
+  },
+  "exports" : {
+    "library" : null,
+    "symbols" : 0,
+    "truncated" : false
+  },
+  "resources" : {
+    "entries" : 1,
+    "extracted" : 1,
+    "iconsReassembled" : 0,
+    "budgetExhausted" : false,
+    "inventory" : [ {
+      "type" : "MANIFEST",
+      "typeId" : 24,
+      "id" : "2",
+      "language" : 1033,
+      "sizeBytes" : 371
+    } ]
+  }
+}

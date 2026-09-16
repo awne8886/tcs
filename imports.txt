@@ -1,0 +1,211 @@
+Imports of tcs-clan-macro.dll
+=============================
+
+KERNEL32.dll   (121 symbols)
+    GetStdHandle
+    GetConsoleMode
+    ReadProcessMemory
+    VirtualQueryEx
+    GetSystemInfo
+    K32GetModuleBaseNameA
+    OpenProcess
+    K32EnumProcesses
+    CloseHandle
+    CreateThread
+    HeapSize
+    WriteConsoleW
+    GetProcessHeap
+    SetEnvironmentVariableW
+    FreeEnvironmentStringsW
+    GetEnvironmentStringsW
+    GetCommandLineW
+    GetCommandLineA
+    GetOEMCP
+    GetACP
+    IsValidCodePage
+    SetEndOfFile
+    DeleteFileW
+    SetStdHandle
+    FlushFileBuffers
+    EnumSystemLocalesW
+    GetUserDefaultLCID
+    IsValidLocale
+    GetLocaleInfoW
+    LCMapStringW
+    CompareStringW
+    GetTimeFormatW
+    GetDateFormatW
+    LoadLibraryExW
+    VirtualProtect
+    HeapReAlloc
+    GetFileSizeEx
+    HeapAlloc
+    HeapFree
+    GetTimeZoneInformation
+    UnhandledExceptionFilter
+    IsDebuggerPresent
+    RtlVirtualUnwind
+    RtlCaptureContext
+    DisableThreadLibraryCalls
+    FreeLibraryAndExitThread
+    ReleaseSRWLockExclusive
+    AcquireSRWLockExclusive
+    GetLastError
+    SetLastError
+    CreateFileW
+    GetFullPathNameW
+    Sleep
+    MoveFileExW
+    MultiByteToWideChar
+    SleepEx
+    EnterCriticalSection
+    LeaveCriticalSection
+    InitializeCriticalSectionEx
+    DeleteCriticalSection
+    FormatMessageA
+    QueryPerformanceCounter
+    QueryPerformanceFrequency
+    InitializeConditionVariable
+    GetEnvironmentVariableA
+    GetModuleHandleW
+    GetProcAddress
+    VerSetConditionMask
+    VerifyVersionInfoW
+    WideCharToMultiByte
+    GetFileType
+    ReadFile
+    PeekNamedPipe
+    WaitForMultipleObjects
+    LocalFree
+    WakeConditionVariable
+    SleepConditionVariableCS
+    WaitForSingleObjectEx
+    GetSystemTimePreciseAsFileTime
+    GetCurrentDirectoryW
+    FindClose
+    FindFirstFileExW
+    FindNextFileW
+    GetFileInformationByHandle
+    EncodePointer
+    DecodePointer
+    LCMapStringEx
+    GetStringTypeW
+    GetCPInfo
+    WakeAllConditionVariable
+    SleepConditionVariableSRW
+    SetUnhandledExceptionFilter
+    GetStartupInfoW
+    GetCurrentProcessId
+    GetCurrentThreadId
+    GetSystemTimeAsFileTime
+    InitializeSListHead
+    RtlLookupFunctionEntry
+    RtlUnwindEx
+    RtlPcToFileHeader
+    RaiseException
+    InterlockedFlushSList
+    FlsAlloc
+    FlsGetValue
+    FlsSetValue
+    FlsFree
+    GetDriveTypeW
+    SystemTimeToTzSpecificLocalTime
+    FileTimeToSystemTime
+    ReadConsoleW
+    WriteFile
+    GetConsoleOutputCP
+    SetFilePointerEx
+    IsProcessorFeaturePresent
+    GetCurrentProcess
+    ExitProcess
+    TerminateProcess
+    FreeLibrary
+    GetModuleHandleExW
+    GetModuleFileNameW
+    RtlUnwind
+
+USER32.dll   (3 symbols)
+    GetSystemMetrics
+    ReleaseDC
+    GetDC
+
+GDI32.dll   (7 symbols)
+    SelectObject
+    BitBlt
+    DeleteObject
+    GetDIBits
+    DeleteDC
+    CreateCompatibleBitmap
+    CreateCompatibleDC
+
+CRYPT32.dll   (16 symbols)
+    CertFreeCertificateChainEngine
+    CertCreateCertificateChainEngine
+    CryptQueryObject
+    CertGetNameStringW
+    CertOpenStore
+    CertAddCertificateContextToStore
+    CryptDecodeObjectEx
+    PFXImportCertStore
+    CryptStringToBinaryW
+    CertFreeCertificateContext
+    CertGetCertificateChain
+    CertFreeCertificateChain
+    CertCloseStore
+    CertEnumCertificatesInStore
+    CertFindExtension
+    CertFindCertificateInStore
+
+WS2_32.dll   (34 symbols)
+    #17
+    #13
+    #8
+    freeaddrinfo
+    getaddrinfo
+    #18
+    #151
+    WSAIoctl
+    #112
+    #23
+    #21
+    #16
+    #15
+    #9
+    #6
+    #10
+    #4
+    #5
+    #2
+    #1
+    #116
+    #115
+    #111
+    WSAWaitForMultipleEvents
+    WSAResetEvent
+    WSAEventSelect
+    WSAEnumNetworkEvents
+    WSACreateEvent
+    WSACloseEvent
+    #19
+    #7
+    #20
+    #57
+    #3
+
+bcrypt.dll   (1 symbol)
+    BCryptGenRandom
+
+Secur32.dll   (1 symbol)
+    InitSecurityInterfaceW
+
+IPHLPAPI.DLL   (1 symbol)
+    if_nametoindex
+
+ADVAPI32.dll   (6 symbols)
+    CryptCreateHash
+    CryptAcquireContextW
+    CryptReleaseContext
+    CryptHashData
+    CryptDestroyHash
+    CryptGetHashParam
+
